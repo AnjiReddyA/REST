@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context>
+	<Realm className="org.apache.catalina.realm.JDBCRealm" 
+    	driverName="com.mysql.jdbc.Driver" 
+     	connectionURL="jdbc:mysql://localhost/test?user=root&amp;password=root" 
+     	userTable="customer_users" 
+		userNameCol="user_name" 
+		userCredCol="password" 
+		userRoleTable="customer_users_roles" 
+		roleNameCol="role_name" />      
+</Context>
